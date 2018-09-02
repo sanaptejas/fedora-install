@@ -3,7 +3,7 @@
 1. switch to run-level 3.
 2. ``` sudo dnf update ```
 3. install [nvidia-driver](https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/) <br>
-	kernel = 20.7, driver = 396.54
+	kernel = 17.7, driver = 396.54
 4. install rpm-fusion <br>
 	`sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
 5. install nvidia-setting
